@@ -22,9 +22,8 @@ jobs:
     steps:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           repository: WahooJapan/vpm-package-listing
           event-type: build-listing
+          token: ${{ secrets.PAT }}
  
