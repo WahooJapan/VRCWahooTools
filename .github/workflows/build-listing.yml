@@ -1,8 +1,7 @@
 name: Build Repo Listing
 
 env:
-  listPublishDirectory: Website
-  pathToCi: ci
+  listRepository: WahooJapan/vpm-package-listing
   
 on: 
   workflow_dispatch:
@@ -27,6 +26,6 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
         with:
-          repository: WahooJapan/vpm-package-listing
+          repository: ${{listRepository}}
           event-type: build-listing
  
