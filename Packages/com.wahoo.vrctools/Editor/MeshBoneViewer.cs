@@ -56,12 +56,12 @@ namespace VRCWahooTools
         void OnEnable()
         {
             OnSelectionChange();
-            Undo.undoRedoPerformed += Repaint;
+            Undo.undoRedoPerformed += OnHierarchyChange;
         }
 
         void OnDisable()
         {
-            Undo.undoRedoPerformed -= Repaint;
+            Undo.undoRedoPerformed -= OnHierarchyChange;
         }
 
         void OnSelectionChange()
