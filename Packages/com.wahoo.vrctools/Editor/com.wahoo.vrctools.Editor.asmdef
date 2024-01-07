@@ -1,6 +1,8 @@
 {
-    "name": "VRChatPackageTemplate.Editor",
-    "references": [],
+    "name": "com.wahoo.vrctools.Editor",
+    "references": [
+        "com.wahoo.vrctools"
+    ],
     "includePlatforms": [
         "Editor"
     ],

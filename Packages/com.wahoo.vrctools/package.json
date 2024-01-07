@@ -1,0 +1,18 @@
+{
+  "name": "com.wahoo.vrctools",
+  "displayName": "VRCWahooTools",
+  "version": "0.0.1",
+  "description": "Describe this Package",
+  "gitDependencies": {},
+  "vpmDependencies": {},
+  "author": {
+    "name": "Wafumohu",
+    "email": "a@o",
+    "url": "https://github.com/WahooJapan/"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "E:\\Unity\\VRCWahooTools2\\Packages\\com.wahoo.vrctools",
+  "unity": "2019.4",
+  "type": "tool"
+}
